@@ -43,6 +43,10 @@ position:fixed;
   height:65px;
   background-color:rgba(255,255,255,0.5);
 }
+.head__logo{
+padding-top:7px;
+
+}
 
 .head__logo > img{
   display:flex;
