@@ -45,7 +45,9 @@ position:fixed;
 }
 
 .head__logo{
-height:65px;
+  justify-content: center;
+  align-items: center;
+height:50px;
 }
 
 .con{
