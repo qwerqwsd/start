@@ -138,6 +138,7 @@ content:"";
 
 
 .List__Template {
+    margin: 0 20px;
 }
 .List__Template > ul > li > a {
   display:block;
