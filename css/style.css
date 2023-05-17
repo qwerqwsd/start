@@ -24,6 +24,8 @@ test{
 }
 
 .background{
+  display:flex;
+  flex-wrap: nowrap;
   z-index: -100;
   position:fixed;
   margin-left: auto;
@@ -31,7 +33,7 @@ test{
   left: 0;
   right: 0;
   text-align: center;
-  width:1000px;
+  width:2000px;
 
 
 }
