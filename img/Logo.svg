@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129.01 41.97">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: DunbarLow-Book, 'Dunbar Low';
+        font-size: 23.37px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #00aeef;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.12em;
+      }
+
+      .cls-2 {
+        font-family: DunbarLow-Light, 'Dunbar Low';
+        font-size: 11.44px;
+        font-weight: 300;
+      }
+
+      .cls-3, .cls-6 {
+        stroke: #00aeef;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-6" d="m5.99,26.99l11.94,5.08-12.03,8.5c-2.27,1.61-5.41-.02-5.41-2.79V5.91C.5,3.45,3.01,1.8,5.27,2.75l16.19,6.88L5.35,21.03c-2.19,1.55-1.83,4.9.64,5.95Z"/>
+      <path class="cls-3" d="m34.05,20.67l-16.11,11.4-11.94-5.08c-2.47-1.05-2.83-4.4-.64-5.95l16.11-11.4,11.94,5.08c2.47,1.05,2.83,4.4.64,5.95Z"/>
+      <path class="cls-6" d="m38.9,3.93v31.86c0,2.46-2.51,4.12-4.77,3.15l-16.19-6.88,16.11-11.4c2.19-1.55,1.83-4.91-.64-5.95l-11.94-5.08L33.49,1.13c2.26-1.6,5.41.02,5.41,2.8Z"/>
+    </g>
+    <text class="cls-1" transform="translate(52.32 24.22)"><tspan x="0" y="0">Jimin </tspan><tspan class="cls-5" x="42.59" y="0">P</tspan><tspan x="51.54" y="0">ark</tspan></text>
+    <text class="cls-2" transform="translate(51.68 39.04)"><tspan class="cls-4" x="0" y="0">D</tspan><tspan x="6.91" y="0">esigner</tspan></text>
+  </g>
+</svg>
