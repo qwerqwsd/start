@@ -206,14 +206,9 @@ top:50%;
 }
 
 
-body{
+* > html > body{
     background-color:white;
 }
-
-html > * {
-
-}
-
 
 
 
