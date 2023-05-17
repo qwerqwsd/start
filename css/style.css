@@ -44,7 +44,7 @@ position:fixed;
   background-color:rgba(255,255,255,0.5);
 }
 
-.head__logo{
+.head__logo > img{
   display:flex;
   flex-direction: column;
   justify-content: center;
