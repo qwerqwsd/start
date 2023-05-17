@@ -1,3 +1,238 @@
-body{
-    background-color:powderblue;
+/* nomalize */
+body, 
+ul,
+li{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+a{
+    text-decoration:none;
+    color:inherit;
+}
+/* lib */
+html > body * {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  width: 100%;
+} 
+
+
+
+
+
+.con-min-width{
+  min-width:1500px;
+}
+
+
+.top-bar{
+position:fixed;
+  width:100%;
+  min-height:65px;  
+  top:0;
+  z-index:999;
+}
+
+
+.header{
+  height:65px;
+  background-color:rgba(255,255,255,0.5);
+}
+
+
+
+.con{
+  max-width: var(--site-width);
+  margin: 0 auto;
+  background-color:white;
+}
+
+
+.flex{
+  display:flex;
+  flex-wrap: wrap;
+}
+/* custom */
+:root{
+  --site-width:1500px;
+  --y-gap: 20px;
+  --x-gap: 20px;
+}
+
+
+
+
+
+
+  .top-bar__menu-1>li>ul{
+    display:none;
+    height:130px;
+  }
+
+    .top-bar__menu-1>li:hover>ul{
+      position:absolute;
+    display:flex;
+    height:130px;
+     background-color:rgba(255,255,255,0.1);
+      color:black;
+  }
+
+  .top-bar__menu-1>li>ul>li>a{
+    height:65px;
+    background-color:#fff;
+  }
+
+  .top-bar__menu-1>li>a{
+    height:65px;
+    background-color:#fff;
+  }
+
+
+.top-bar.active{
+  color:rgb(7,85,59);
+  background-color:rgba(206,212,106,.8);
+}
+.top-bar.active ul>li:hover>a{
+  background-color:rgba(245,208,66,.3);
+    color:rgb(10,23,78);
+  border:2px solid rgba(255,255,255,0.5);
+}
+.top-bar.active ul>li>ul>li>a{
+  color:rgb(7,85,59);
+  background-color:rgba(206,212,106,.8);
+}
+.top-bar.active ul>li>ul::before{
+content:"";
+  display:flex;
+    background-color:rgba(206,212,106,.8);
+  z-index:-1;
+}
+.top-bar.active ul>li:hover>ul::before{
+  background-image:rgba(206,212,106,.8);
+  z-index:-1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Top__List{
+  display:flex;
+  width:80px;
+}
+
+
+
+
+.List__Template {
+}
+.List__Template > ul > li > a {
+  display:block;
+}
+.List__Template > ul {
+  gap: var(--y-gap) var(--x-gap);
+      	border-radius: 10rem;
+}
+.List__Template > ul > li {
+  width: calc((100% - var(--x-gap) * (var(--cc) - 1)) / var(--cc));
+
+}
+
+.List__Template > ul > li > a > img{
+        	border-radius: 0.5rem;
+}
+
+
+
+
+
+.List__Template  > ul > li > a:nth-child(1) {
+  position: relative;
+  overflow:hidden;
+}
+
+.List__Template  > ul > li > a:nth-child(1)::before {
+  position: absolute;
+  color: white;
+  content: "VIEW";
+  border: 3px solid;
+  padding: 4px 8px 4px 10px;
+  border-radius: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+left:0;
+  top:0;
+  opacity: 0;
+  transition: linear 0.3s;
+  z-index: 1;
+}
+
+.List__Template > ul > li:hover > a:nth-child(1)::before {
+  opacity: 1;
+left:44%;
+top:50%;
+}
+
+.List__Template > ul > li > a:nth-child(1)::after {
+  position: absolute;
+  content: "";
+  background-color: rgba(30, 30, 30, 0);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: ease-out 0.3s;
+}
+
+.List__Template > ul > li:hover > a:nth-child(1)::after {
+  background-color: rgba(30, 30, 30, 0.5);
+}
+
+.List__Template > ul > li > a:nth-child(1) > img {
+  transition: ease-in-out 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 600px) {
+  :root {
+    --cc: 3;
+  }
+}
+@media (max-width: 600px) and (min-width: 400px) {
+  :root {
+    --cc: 2;
+  }
+}
+@media (max-width: 400px) {
+  :root {
+    --cc: 1;
+  }
+}
+
+.Hi{
+  height: 500px;
 }
