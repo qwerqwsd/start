@@ -210,19 +210,25 @@ body{
     background-color:white;
 }
 
+html > * {
 
-
-
-
-
-
-
-
-@media (min-width: 600px) {
-  :root {
-    --cc: 3;
-  }
 }
+
+
+
+
+
+@media (min-width: 1000px){
+    :root {
+      --cc: 4;
+    }
+  }
+  
+  @media (max-width: 1000px) and (min-width:600px) {
+    :root {
+      --cc: 3;
+    }
+  }
 @media (max-width: 600px) and (min-width: 400px) {
   :root {
     --cc: 2;
