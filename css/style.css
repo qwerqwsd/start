@@ -22,6 +22,9 @@ img {
 test{
     width: 1000px;
 }
+body{
+  background-image: url(../img/Jimin\ Park\ Logo.png);
+}
 
 .background{
   display:flex;
