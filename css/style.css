@@ -218,6 +218,7 @@ top:50%;
 .List__Template > ul > li > a:nth-child(1)::after {
   position: absolute;
   content: "";
+  border-radius: 0.5rem;
   background-color: rgba(30, 30, 30, 0);
   top: 0;
   left: 0;
