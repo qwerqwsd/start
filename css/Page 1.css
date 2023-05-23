@@ -11,3 +11,14 @@
   
   
   }
+
+  :root{
+    --site-width:1500px;
+    --y-gap: 20px;
+    --x-gap: 20px;
+  }
+  
+  .title{
+    width:1500px;
+  }
+  
