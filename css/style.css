@@ -24,6 +24,7 @@ test{
 }
 body{
   background-image: url(../img/Jimin\ Park\ Logo.png);
+  background-repeat:no-repeat;
 }
 
 .background{
